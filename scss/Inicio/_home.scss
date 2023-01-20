@@ -1,0 +1,40 @@
+#home {
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url("/img/home.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid red;
+
+}
+
+.contenedor {
+    margin: auto;
+    display: table;
+    margin-top: 10rem;
+    
+    h1 {
+        float: left;
+        color: rgb(255, 0, 0);
+        position: relative;
+        font-size: 4rem;
+        
+        span {
+            position: absolute;
+            right: 0;
+            width: 0;
+            background: rgba(0,0,0,1);
+            border-left: 6px solid #000;
+            animation: maquina 2s infinite alternate steps(10);
+        }
+    }
+}
+
+@keyframes maquina{
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}

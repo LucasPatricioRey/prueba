@@ -4,9 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portafolio Lucas Rey</title>
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Rubik+Glitch&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>hola mama</h1>
+    <header>
+        <div class="contenedor">
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"><img src="Img/menu.png" class="icon-menu" alt="icono-menu"></label>
+            <nav class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="">Sobre mi</a></li>
+            <li><a href="">Mis proyectos</a></li>
+            <li><a href="">Mis habilidades</a></li>
+            <li><a href="">Mis estudios</a></li>
+            <li><a class="contact" href="">Contactame</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="contenedor">
+            <h1>Lucas Rey .<span>&#160;</span></h1>
+            <p>Estudiante de programación</p>
+        </div>
+    </section>
+
+    <section id="sobre_mi">
+        <div>
+            <h2>Sobre mi</h2>
+            <p>Soy lucas etc.</p>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div>
+            <h3>Gimnasio de boxeo</h3>
+            <p>Pagina realizada en el curso de Desarrollo web de CoderHouse</p>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="Container-habilidades">
+            <div class="card-habilidades">
+                <div class="container-imagen-habilidades">
+                    <a href="https://www.w3schools.com/html/"><img src="https://img.icons8.com/color/40/null/html-5--v1.png" /></a> 
+                </div>
+                <h3 class="titulo-habilidades">HTML</h3>
+            </div>
+
+            <div class="card-habilidades">
+                <div class="container-imagen-habilidades">
+                    <a href="https://www.w3schools.com/css/"><img src="https://img.icons8.com/fluency/40/null/css3.png" /></a>
+                </div>
+                <h3 class="titulo-habilidades">CSS</h3>
+            </div>
+
+            <div class="card-habilidades">
+                <div class="container-imagen-habilidades">
+                    <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/40/null/javascript--v1.png" /></a>
+                </div>
+                <h3 class="titulo-habilidades">JS</h3>
+            </div>
+            
+            <div class="card-habilidades">
+                <div class="container-imagen-habilidades">
+                    <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"><img src="https://img.icons8.com/color/40/null/bootstrap.png" /></a>
+                </div>
+                <h3 class="titulo-habilidades">Bootstrap</h3>
+            </div>
+
+            <div class="card-habilidades">
+                <div class="container-imagen-habilidades">
+                    <a href="https://nodejs.org/en/"><img src="https://img.icons8.com/color/40/null/nodejs.png" /></a>
+                </div>
+                <h3 class="titulo-habilidades">Node</h3>
+            </div>
+
+            <div class="card-habilidades">
+                <div class="container-imagen-habilidades">
+                    <a href="https://git-scm.com/"><img src="https://img.icons8.com/color/40/null/git.png" /></a>
+                </div>
+                <h3 class="titulo-habilidades">Git</h3>
+            </div>
+        
+            <div class="card-habilidades">
+                <div class="container-imagen-habilidades">
+                    <a href="https://github.com/"><img src="https://img.icons8.com/nolan/40/github.png" /></a>
+                </div>
+                <h3 class="titulo-habilidades">Github</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="estudios">
+        <div class="containers-estudios">
+
+            <h1 data-aos="fade-down" class="titulo-container-estudios" data-section="estudios" data-value="titulo-estudios"> <span class="guion-titulo-estudios">―</span>Mis Estudios</h1>
+            <div class="container-estudio">
+                <a href="https://www.coderhouse.com/"><img class="logo-coderhouse" src="https://tuquejasuma.com/media/cache/35/f1/35f153aaf09760554019eafbc8b7f426.jpg" width=""></a>
+                <h1 class="titulo-card-estudio" data-section="estudios" data-value="descripcion-estudios1"> Desarrollo Web </h1>
+                <p class="descripcion-card-estudio" data-section="estudios" data-value="explicacion-estudios1"> Curso de Desarrollo Web en <span class="detalles-card-estudio">CoderHouse</span> donde se utilizo <span class="detalles-card-estudio">HTML, CSS, Bootstrap, SASS, Git y GitHub. </span> </p>
+            </div>
+
+            <div class="container-estudio js">
+            <a href="https://www.coderhouse.com/"><img class="logo-coderhouse" src="https://tuquejasuma.com/media/cache/35/f1/35f153aaf09760554019eafbc8b7f426.jpg" width=""></a>
+            <h1 class="titulo-card-estudio" data-section="estudios" data-value="descripcion-estudios2" > JavaScript </h1>
+            <p class="descripcion-card-estudio" data-section="estudios" data-value="explicacion-estudios2"> Curso de JavaScript en <span class="detalles-card-estudio">CoderHouse</span> donde se utilizo <span class="detalles-card-estudio">Node, Dom, Eventos, AJAX & Fetch, Storage, y Workshop.</span> </p>
+            </div>
+    </section>
 </body>
 </html>
